@@ -1,0 +1,589 @@
+.darkTheme {
+  ///header
+  .header {
+    background-color: #000;
+
+    .container {
+      .topRow {
+        .mainLogo {
+          a {
+            color: #fff;
+          }
+        }
+
+        .topRowList {
+          .topRowItem {
+            &:nth-last-child(1) {
+              &::after {
+                background-color: #fff;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .navBar {
+      border-bottom: 0.1px solid #d3d2d2;
+      background-color: #000;
+      .navList {
+        .navItem {
+          a {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  //home
+
+  .home {
+    background-color: #000;
+    a {
+      .fragranceSection {
+        .text {
+          p {
+            color: #1d1d1d;
+          }
+          span {
+            color: #1d1d1d;
+          }
+        }
+      }
+    }
+    a {
+      .makeUpSection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+    a {
+      .fashionSection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    a {
+      .watchesSection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+    a {
+      .skinCareSection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+    a {
+      .eyeWearSection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+    a {
+      .fineJewelerySection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+    a {
+      .hauteCoutureSection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+
+    a {
+      .highJewelerySection {
+        .text {
+          p {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+        }
+      }
+    }
+    .endSection {
+      .containerFooter {
+        background-color: #000;
+        .contactInfo {
+          h3 {
+            color: #fff;
+          }
+          p,
+          span {
+            color: #fff;
+          }
+          a {
+            color: #fff;
+          }
+        }
+        .newsLetterInfo {
+          h3 {
+            color: #fff;
+          }
+          p,
+          span {
+            color: #fff;
+          }
+          input {
+            background-color: #000;
+
+            &:hover {
+              border-bottom: 2px solid #000;
+            }
+          }
+          button {
+            background-color: #000;
+            border: 0;
+            margin-left: -40px;
+            color: #767676;
+          }
+        }
+        .storeInfo {
+          h3 {
+            color: #fff;
+          }
+          span {
+            color: #fff;
+          }
+          input {
+            background-color: #000;
+            &:hover {
+              border-bottom: 2px solid #000;
+            }
+          }
+        }
+      }
+    }
+  }
+  .hauteCoutureSection {
+    background-color: #000;
+    .hauteCoutureSectionText {
+      p {
+        color: #fff;
+      }
+      span {
+        color: #fff;
+      }
+      button {
+        background-color: #fff;
+      }
+    }
+  }
+  .hauteCoutureSlideSection {
+    background: #000;
+
+    .slide {
+      .swiper {
+        .swiper-slide {
+          background: #000;
+        }
+      }
+    }
+  }
+
+  //shop
+  .shop {
+    background-color: #000;
+    margin: 95.2px 0 -25px;
+    h5,
+    h2 {
+      color: #fff;
+    }
+
+    .fragranceText {
+      color: #fff;
+    }
+
+    .container {
+      .cardBox {
+        width: 100%;
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+      }
+    }
+  }
+  ///card
+  a {
+    .card {
+      .cardInfo {
+        .cardTitle {
+          color: #fff;
+        }
+        .cardDetails,
+        .text {
+          color: #fff;
+        }
+        .price {
+          color: #fff;
+        }
+      }
+      a {
+        .cardBtn {
+          button {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  ///shoppingBag
+  .ShoppingBagCard {
+    .bagCardInfo {
+      h2 {
+        color: #000;
+      }
+      .productInfo {
+        .productDetails {
+          h4 {
+            color: #000;
+          }
+          p {
+            color: #000;
+          }
+          span {
+            color: #000;
+          }
+        }
+        .total {
+          color: #000;
+
+          font-size: 12px;
+          font-weight: 600;
+          margin: auto;
+        }
+        select {
+          color: #000;
+        }
+      }
+    }
+    .subTotal {
+      background-color: #fff8f8;
+      h2 {
+        color: #000;
+      }
+      span {
+        color: #000;
+      }
+    }
+    a {
+      button {
+        background-color: #000;
+        color: #fff;
+      }
+    }
+  }
+  ///form
+  .formSection {
+    .container {
+      h2 {
+        color: #fff;
+      }
+      .formInfo {
+        .headTitle {
+          h3 {
+            color: #fff;
+            &:active {
+              color: #ffffffb7;
+            }
+          }
+        }
+        .signInForm {
+          h4,
+          p {
+            color: #fff;
+          }
+          form {
+            .form {
+              input {
+                background-color: #000;
+              }
+            }
+            button {
+              background-color: #20202059;
+              color: #fff;
+              &:hover {
+                text-decoration: underline 1.8px;
+              }
+            }
+          }
+        }
+        .registerForm {
+          .checkoutText {
+            color: #fff;
+          }
+          .text {
+            color: #fff;
+          }
+          form {
+            .form {
+              input {
+                background-color: #000;
+                &:hover {
+                  border-bottom: #000 2px solid;
+                  transition: 0.1s;
+                }
+              }
+            }
+            button {
+              background-color: #20202059;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //aboutCard
+  .aboutChanelCardInfo {
+    background-color: #000;
+    .container {
+      .column {
+        h3 {
+          color: #fff;
+        }
+
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  //cardFashion
+  .cardFashionInfo {
+    background-color: #000;
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  //eyeWearCard
+  .eyeWearCardInfo {
+    background-color: #000;
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  //fineJeweleryCard
+  .fineJeweleryInfo {
+    background-color: #000;
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  ///fragranceCard
+  .fragranceCardInfo {
+    background-color: #000;
+    h5 {
+      color: #fff;
+    }
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  //makeUpCard
+  .makeupCardInfo {
+    background-color: #000;
+    h5 {
+      color: #fff;
+    }
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  //skinCareCard
+  .skinCareCardInfo {
+    background-color: #000;
+    h5 {
+      color: #fff;
+    }
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+        }
+        .redTitle {
+          color: rgb(132, 17, 17);
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+  //watchesCard
+  .watchesCardInfo {
+    background-color: #000;
+    .container {
+      .img {
+        span {
+          a {
+            color: #fff;
+          }
+        }
+      }
+      .column {
+        h3 {
+          color: #fff;
+
+          a {
+            color: #fff;
+          }
+        }
+        a {
+          color: #fff;
+        }
+        p {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

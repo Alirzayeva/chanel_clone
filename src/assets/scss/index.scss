@@ -1,0 +1,30 @@
+//Base
+@import "./base";
+
+@import "./mixin";
+//Components
+@import "./components/header";
+@import "./components/footer";
+@import "./components/cardFashion";
+@import "./components/fineJeweleryCard";
+@import "./components/watchesCard";
+@import "./components/eyeWearCard";
+@import "./components/fragranceCard";
+@import "./components/fragranceCard";
+@import "./components/makeUpCard";
+@import "./components/skinCareCard";
+@import "./components/aboutChanelCard";
+@import "./components/card";
+@import "./components/shoppingBagCard";
+@import "./components/form";
+@import "./components/darkTheme";
+
+//Pages
+@import "./pages/fashion";
+@import "./pages/hauteCouture";
+@import "./pages/highJewelery";
+@import "./pages/home";
+@import "./pages/productDetails";
+@import "./pages/notFound";
+@import "./pages/cart";
+@import "./pages/shop";

@@ -1,0 +1,151 @@
+.fashion {
+  width: 100%;
+  background-color: #000;
+  .container {
+    width: 100%;
+    .chanelBag {
+      width: 100%;
+      height: 100%;
+
+      .video {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        video {
+          width: 100%;
+          height: 100%;
+        }
+      }
+      .chanelTitle {
+        width: 100%;
+        height: 70%;
+        position: absolute;
+        z-index: 9;
+        top: 28%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        h2 {
+          color: #fff;
+          font-size: 40px;
+          width: 370px;
+          text-align: center;
+        }
+        p {
+          color: #fff;
+          font-size: 14px;
+          width: 520px;
+          text-align: center;
+          line-height: 1.8;
+          padding: 15px;
+        }
+        button {
+          @include primaryFashionBtn();
+        }
+      }
+    }
+  }
+}
+.jennieSection {
+  width: 100%;
+  height: 100%;
+
+  .container {
+    width: 100%;
+    .nameTitle {
+      width: 100%;
+      height: 500px;
+      background-color: #000;
+      h2 {
+        color: #fff;
+        font-size: 180px;
+        font-weight: 600;
+        font-family: Arial, Helvetica, sans-serif;
+        align-items: center;
+        text-align: center;
+        padding: 150px 0;
+      }
+    }
+    .jennieShow {
+      width: 100%;
+      height: 800px;
+      background-image: url(../../images/background/otherBg/fashion_bg.webp);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-end;
+      padding: 15px 0 50px;
+      p {
+        color: #fff;
+        font-size: 14px;
+        width: 500px;
+        text-align: center;
+      }
+      button {
+        @include primaryFashionBtn();
+      }
+    }
+    .jennieChanelInfo {
+      width: 100%;
+      display: flex;
+      justify-content: space-around;
+      background-color: #000;
+      video {
+        width: 50%;
+        height: 500px;
+      }
+      img {
+        width: 40%;
+        height: 600px;
+        background-size: cover;
+      }
+    }
+    img {
+      width: 100%;
+      height: 650px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+.lillySection {
+  width: 100%;
+  margin-bottom: 40px;
+  .container {
+    width: 90%;
+    .lilyChanelInfo {
+      width: 100%;
+      height: 100%;
+      h2 {
+        font-size: 130px;
+        color: #1e1d1d;
+        margin: 65px auto;
+        text-align: center;
+        align-items: center;
+        text-transform: uppercase;
+      }
+      .lillyAbout {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .video {
+          width: 57%;
+          display: flex;
+          flex-direction: column;
+          video {
+            width: 65%;
+          }
+        }
+        img {
+          width: 400px;
+          height: 500px;
+
+          // padding: 0 0 0 20px;
+        }
+      }
+    }
+  }
+}

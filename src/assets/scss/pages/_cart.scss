@@ -1,0 +1,218 @@
+.cart {
+  width: 100%;
+  height: 100%;
+  margin: 80px 0;
+  .container {
+    width: 90%;
+    .row {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      img {
+        width: 100%;
+        object-fit: contain;
+      }
+      h2 {
+        font-size: 34px;
+        text-align: center;
+        font-weight: 550;
+        color: #272727;
+        text-transform: uppercase;
+        margin: 30px 0;
+      }
+      .productAbout {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        .bagImg {
+          width: 80px;
+          margin: 10px 25px;
+          object-fit: cover;
+        }
+        .productDetails {
+          width: 40%;
+          display: flex;
+          flex-direction: column;
+          line-height: 1.5;
+          .productTitle {
+            color: #272727;
+            font-size: 14px;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+          }
+
+          .productDetailText {
+            width: 60%;
+            color: #484848;
+            font-size: 14px;
+          }
+          p {
+            font-size: 14px;
+            color: #222222;
+          }
+          .btn {
+            width: 30%;
+            display: flex;
+            button {
+              color: rgb(119, 119, 9);
+              text-decoration: underline;
+              border: 0;
+              background-color: transparent;
+              font-size: 12px;
+              cursor: pointer;
+              &:hover {
+                text-decoration: underline 2px;
+              }
+            }
+          }
+        }
+        .quanty {
+          width: 20%;
+          display: flex;
+          justify-content: space-around;
+          p {
+            font-size: 14px;
+            color: #484848;
+            padding: 0 5px;
+          }
+          select {
+            height: 20px;
+            border: 0;
+            &:hover {
+              border-bottom: 1px solid;
+            }
+          }
+          span {
+            font-size: 16px;
+            font-weight: 500;
+          }
+        }
+      }
+      .checkout {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+        margin: 20px auto;
+        background-color: #f6f6f6;
+        line-height: 3;
+        .total {
+          width: 30%;
+          padding: 20px;
+          p {
+            font-size: 14px;
+            color: #272727;
+          }
+          span {
+            color: #303030;
+            font-size: 16px;
+            font-weight: 600;
+            text-transform: uppercase;
+          }
+        }
+        .sum {
+          width: 30%;
+          display: flex;
+          flex-direction: column;
+          padding: 20px;
+          span {
+            color: #1d1d1d;
+            font-size: 15px;
+            font-weight: 600;
+          }
+        }
+      }
+      button {
+        width: 300px;
+        height: 50px;
+        margin: 10px auto;
+        cursor: pointer;
+        text-transform: uppercase;
+      }
+      .checkoutBtn {
+        background-color: #000;
+        a {
+          color: #fff;
+          font-size: 12px;
+          font-weight: 600;
+          &:hover {
+            transition: 0.4s;
+            text-decoration: underline;
+          }
+        }
+      }
+      .paypalBtn {
+        background-color: #fff;
+        color: #0a0958;
+        font-size: 16px;
+        font-weight: 600;
+        border: 1px solid;
+        padding-bottom: 5px;
+        img {
+          width: 15px;
+        }
+      }
+      a {
+        text-align: center;
+        .shoppingBtn {
+          background-color: transparent;
+          border: 0;
+          font-size: 12px;
+          font-weight: 600;
+          color: #272727;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+    .paymentMethodsInfo {
+      width: 65%;
+      margin: 10px auto 100px;
+      display: flex;
+      flex-direction: column;
+      background-color: #f6f6f6;
+      justify-content: center;
+      padding: 20px;
+      line-height: 3;
+      align-items: center;
+      text-align: center;
+      h2 {
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #1b1b1b;
+      }
+      .cardList {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        .cardItem {
+          padding: 10px;
+          img {
+            width: 25px;
+            height: 26px;
+            background-color: #fff;
+            border: 0.5px solid #d3d3d3;
+          }
+        }
+      }
+
+      h6 {
+        font-size: 13px;
+        text-transform: uppercase;
+        color: #272727;
+      }
+      p {
+        font-size: 10px;
+        line-height: 1;
+      }
+      a {
+        color: #1b1b1b;
+        font-size: 14px;
+        margin: 15px auto;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}

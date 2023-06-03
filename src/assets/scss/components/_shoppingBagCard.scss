@@ -1,0 +1,126 @@
+@import "../mixin";
+
+.ShoppingBagCard {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  .bagCardInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 40px 0;
+
+    h2 {
+      font-size: 26px;
+      text-align: center;
+      align-items: center;
+      margin: 30px auto;
+    }
+    .emptyInfo {
+      width: 100%;
+      text-align: center;
+      p {
+        font-weight: 900;
+        font-size: 20px;
+        margin: 10px 0 30px;
+      }
+      a {
+        background-color: #000;
+        color: #fff;
+        padding: 12px 25px;
+        margin: 25px 0;
+        font-weight: 900;
+        transition: 0.3s ease;
+        border-radius: 30px;
+        cursor: pointer;
+        &:hover {
+          background-color: #fff;
+          color: #000;
+        }
+      }
+    }
+    .productInfo {
+      width: 70%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-around;
+      img {
+        width: 80px;
+        object-fit: cover;
+        background-color: transparent;
+      }
+      .productDetails {
+        width: 60%;
+        line-height: 1.5;
+        h4 {
+          font-size: 13px;
+          text-transform: uppercase;
+        }
+        p {
+          font-size: 12px;
+        }
+        span {
+          font-size: 14px;
+        }
+      }
+      .total {
+        font-size: 12px;
+        font-weight: 600;
+        margin: auto;
+      }
+      select {
+        right: 0;
+        height: 20px;
+        border: 0;
+        &:hover {
+          border-bottom: 1px solid;
+        }
+      }
+    }
+  }
+  .subTotal {
+    width: 68%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f6f6f6;
+    h2 {
+      font-size: 22px;
+      color: #2d2d2d;
+      text-transform: uppercase;
+      margin: 0;
+      padding: 20px;
+    }
+    span {
+      font-size: 18px;
+      font-weight: 600;
+      color: #2d2d2d;
+      padding: 10px;
+    }
+  }
+  a {
+    width: 50%;
+    margin: 10px 25px;
+    button {
+      @include primaryCardBtn();
+      margin: 0 100px;
+    }
+  }
+  .emptyCart {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: center;
+    color: #777777;
+    transition: 0.3s ease;
+    cursor: pointer;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}

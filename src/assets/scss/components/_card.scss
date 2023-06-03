@@ -1,0 +1,64 @@
+.card {
+  width: 350px;
+  height: 500px;
+  margin: 0 0 20px;
+
+  a {
+    .cardImg {
+      width: 100%;
+      img {
+        width: 100%;
+        object-fit: cover;
+
+        &:hover {
+          border-bottom: 4px solid #000;
+          transition: 0.2s ease-in-out all;
+        }
+      }
+    }
+  }
+
+  .cardInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .cardTitle {
+      color: #141414;
+      font-size: 14px;
+      text-transform: uppercase;
+    }
+    .cardDetails,
+    .text {
+      color: #272727;
+      font-size: 15px;
+      line-height: 1.8;
+    }
+    .price {
+      color: #272727;
+      font-size: 15px;
+      font-weight: 600;
+    }
+  }
+
+  a {
+    .cardBtn {
+      text-align: center;
+      margin: 10px 0;
+      button {
+        width: 120px;
+        border: 0;
+        background-color: transparent;
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        border-bottom: 2px solid #ebebe4;
+        &:hover {
+          border-bottom: 2px solid #000;
+          cursor: pointer;
+          transition: 0.2s;
+        }
+      }
+    }
+  }
+}
