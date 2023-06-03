@@ -1,8 +1,13 @@
-import React, { useContext } from "react";
+import React, { useContext,useEffect } from "react";
 import { MainContext } from "../utils/MainContext";
 import Card from "../components/Card";
 const Shop = () => {
   const { products } = useContext(MainContext);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <section className="shop">
       <h5>Fragrance</h5>
